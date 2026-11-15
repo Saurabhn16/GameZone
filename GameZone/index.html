@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameZone</title>
+    <meta
+      name="description"
+      content="GameZone brings together action, puzzle, sports, and arcade games in one bold gaming hub."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark">GZ</div>
+          <span>GameZone</span>
+        </div>
+
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#featured">Featured</a>
+          <a href="#categories">Categories</a>
+          <a href="#how-it-works">How it works</a>
+        </nav>
+
+        <button class="nav-button">Join now</button>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Next-level play</p>
+            <h1>Power up your next game night.</h1>
+            <p class="subheading">
+              Discover fast arcade thrills, strategy battles, and competitive sports action in one vibrant gaming hub.
+            </p>
+
+            <div class="cta-row">
+              <a href="#featured" class="primary-btn">Play now</a>
+              <button id="surprise-btn" class="secondary-btn" type="button">Surprise me</button>
+            </div>
+
+            <div class="stats" aria-label="GameZone stats">
+              <div>
+                <strong>120K+</strong>
+                <span>players</span>
+              </div>
+              <div>
+                <strong>48</strong>
+                <span>game modes</span>
+              </div>
+              <div>
+                <strong>4.9/5</strong>
+                <span>community rating</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="Featured game preview">
+            <div class="floating-panel primary-panel">
+              <span class="panel-tag">Live event</span>
+              <h2>Neon Clash</h2>
+              <p>Weekend tournament</p>
+              <div class="panel-meta">
+                <span>3.4K online</span>
+                <span>Ranked</span>
+              </div>
+            </div>
+            <div class="floating-panel secondary-panel">
+              <span class="mini-pill">Top pick</span>
+              <div class="mini-score">
+                <strong>92%</strong>
+                <span>player love</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="categories" class="category-section">
+          <div class="section-heading">
+            <p class="eyebrow">Browse by vibe</p>
+            <h2>Pick your game mood</h2>
+          </div>
+
+          <div class="filters" aria-label="Game filters">
+            <button class="filter-btn active" type="button" data-filter="all">All</button>
+            <button class="filter-btn" type="button" data-filter="action">Action</button>
+            <button class="filter-btn" type="button" data-filter="sports">Sports</button>
+            <button class="filter-btn" type="button" data-filter="arcade">Arcade</button>
+            <button class="filter-btn" type="button" data-filter="puzzle">Puzzle</button>
+          </div>
+        </section>
+
+        <section id="featured" class="games-section">
+          <div class="game-grid">
+            <article class="game-card" data-category="action" data-name="Neon Clash">
+              <div class="game-art art-1"></div>
+              <div class="game-body">
+                <div class="card-header">
+                  <span class="badge action">Action</span>
+                  <span class="rating">★ 4.9</span>
+                </div>
+                <h3>Neon Clash</h3>
+                <p>Fast duels in a cyber city under neon floodlights.</p>
+              </div>
+            </article>
+
+            <article class="game-card" data-category="sports" data-name="Street Hoops">
+              <div class="game-art art-2"></div>
+              <div class="game-body">
+                <div class="card-header">
+                  <span class="badge sports">Sports</span>
+                  <span class="rating">★ 4.8</span>
+                </div>
+                <h3>Street Hoops</h3>
+                <p>Build your run and sink the perfect three-pointer.</p>
+              </div>
+            </article>
+
+            <article class="game-card" data-category="arcade" data-name="Sky Rush">
+              <div class="game-art art-3"></div>
+              <div class="game-body">
+                <div class="card-header">
+                  <span class="badge arcade">Arcade</span>
+                  <span class="rating">★ 4.7</span>
+                </div>
+                <h3>Sky Rush</h3>
+                <p>Dash, dodge, and collect boosts through the sky lane.</p>
+              </div>
+            </article>
+
+            <article class="game-card" data-category="puzzle" data-name="Pixel Path">
+              <div class="game-art art-4"></div>
+              <div class="game-body">
+                <div class="card-header">
+                  <span class="badge puzzle">Puzzle</span>
+                  <span class="rating">★ 4.9</span>
+                </div>
+                <h3>Pixel Path</h3>
+                <p>Piece together shifting maps to unlock hidden exits.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="how-it-works" class="info-section">
+          <div class="section-heading left">
+            <p class="eyebrow">How it works</p>
+            <h2>Jump in without the fuss</h2>
+          </div>
+
+          <div class="steps">
+            <div class="step-card">
+              <span>01</span>
+              <h3>Choose a vibe</h3>
+              <p>Pick action, arcade, puzzle, or sports and explore what fits your energy.</p>
+            </div>
+            <div class="step-card">
+              <span>02</span>
+              <h3>Launch instantly</h3>
+              <p>Start in seconds with lightweight, easy-to-play experiences built for quick wins.</p>
+            </div>
+            <div class="step-card">
+              <span>03</span>
+              <h3>Level up</h3>
+              <p>Track progress, chase leaderboard badges, and invite friends to compete.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
